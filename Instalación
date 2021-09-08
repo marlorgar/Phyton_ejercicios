@@ -1,0 +1,16 @@
+sudo apt install python3-pip python3-dev
+sudo -H pip3 install --upgrade pip
+udo -H pip3 install virtualenv
+ Instalar Jupyter Notebook
+Ahora que ya contamos con los requisitos necesarios para instalar Jupyter Notebok, primero vamos a crear una carpeta donde se instalará la instalación. A esta la voy a llamar Jupyter, pero se le puede dar cualquier otro nombre.
+
+
+mkdir jupyter
+ 
+cd jupyter
+
+sudo virtualenv jupyter
+source jupyter/bin/activate
+sudo pip install jupyter
+
+jupyter notebook
